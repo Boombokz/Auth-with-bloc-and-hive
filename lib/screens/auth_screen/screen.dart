@@ -5,8 +5,8 @@ import 'package:loyalty_app_flutter/screens/auth_screen/blocs/login_bloc/login_b
 import 'package:loyalty_app_flutter/themes/text_theme.dart';
 
 class AuthScreen extends StatelessWidget {
-  final TextEditingController loginController = TextEditingController(text: 'Boombokz');
-  final TextEditingController passwordController = TextEditingController(text: '1234');
+  final TextEditingController loginController = TextEditingController();
+  final TextEditingController passwordController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
